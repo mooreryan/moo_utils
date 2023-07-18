@@ -1,0 +1,6 @@
+(library
+ (name test_moo_utils_base)
+ (inline_tests)
+ (libraries base base_quickcheck moo_utils_base stdio)
+ (preprocess
+  (pps ppx_jane)))

@@ -1,4 +1,6 @@
 (library
  (name moo_utils_iter)
  (public_name moo_utils_iter)
- (libraries base iter))
+ (libraries base iter)
+ (instrumentation
+  (backend bisect_ppx)))
