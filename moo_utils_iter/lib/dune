@@ -1,0 +1,4 @@
+(library
+ (name moo_utils_iter)
+ (public_name moo_utils_iter)
+ (libraries base iter))
