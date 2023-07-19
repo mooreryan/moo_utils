@@ -12,10 +12,13 @@ doc: "https://github.com/mooreryan/moo_utils"
 bug-reports: "https://github.com/mooreryan/moo_utils/issues"
 depends: [
   "base"
+  "base_quickcheck" {with-test}
   "dune" {>= "3.9"}
   "iter"
   "ocaml"
-  "ppx_inline_test" {with-test}
+  "ppx_jane" {with-test}
+  "re" {with-test}
+  "stdio" {with-test}
   "odoc" {with-doc}
 ]
 build: [

@@ -37,9 +37,12 @@
  (description "Utils for the iter package")
  (depends
   base
+  (base_quickcheck :with-test)
   dune
   iter
   ocaml
-  (ppx_inline_test :with-test))
+  (ppx_jane :with-test)
+  (re :with-test)
+  (stdio :with-test))
  (tags
   (moo_utils iter)))

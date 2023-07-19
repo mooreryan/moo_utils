@@ -1,6 +1,6 @@
 (library
  (name test_moo_utils_iter)
  (inline_tests)
- (libraries base iter moo_utils_iter)
+ (libraries base base_quickcheck iter moo_utils_iter stdio re)
  (preprocess
-  (pps ppx_inline_test)))
+  (pps ppx_jane)))
