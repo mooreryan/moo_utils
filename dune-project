@@ -1,6 +1,6 @@
 (lang dune 3.9)
 
-; (name moo_utils)
+(name moo_utils)
 
 (generate_opam_files true)
 
